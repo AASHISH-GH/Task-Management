@@ -6,7 +6,7 @@ import { Task } from './models/Task.js';
 const app = express();
 const PORT = 3000;
 
-app.use(cors({ origin: 'http://localhost:5173' }));
+app.use(cors({ origin: 'https://task-management-mtjm.onrender.com' }));
 app.use(express.json());
 
 mongoose.connect('mongodb+srv://ashughonguntikar:iHR2bwDl4aKp29cA@cluster0.odglfvk.mongodb.net/');
