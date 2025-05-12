@@ -9,7 +9,7 @@ const PORT = 3000;
 app.use(cors({ origin: 'http://localhost:5173' }));
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://Demon_cyborg:1234567!@cluster0.lohraar.mongodb.net/');
+mongoose.connect('mongodb+srv://ashughonguntikar:iHR2bwDl4aKp29cA@cluster0.odglfvk.mongodb.net/');
 
 // Get all tasks
 app.get('/api/tasks', async (req, res) => {
